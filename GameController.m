@@ -103,7 +103,7 @@
     return NSTerminateLater;
 }
 
-- (BOOL) validateMenuItem: (NSMenuItem *) menuItem
+- (BOOL) validateUserInterfaceItem: (NSMenuItem *) menuItem
 {
     if ([menuItem tag] == 1)
         return [game canUndo];
